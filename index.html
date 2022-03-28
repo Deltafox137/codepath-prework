@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Light and Sound Memory Game</h1>
+    <p>Haha wassup get ready to use your brain</p>
+    
+    <p id="lives">strikes = 0</p>
+    
+    <p id="seconds">timer = 20</p>    
+    <!-- Start and Stop buttons -->
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <!-- these are the game buttons -->
+    <!-- sound/image persists if you let go of your mouse outside of button, onmouseleave prevents this bug -->
+    <div id="gameButtonArea">
+      <!-- button1 -->
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1);showImage(1)" onmouseup="stopTone();hideImage(1)">
+        <img id="image1" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio1" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/angry-cartoon-cat?v=1647906486233"></audio>
+      </button>
+      <!-- button2 -->
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2);showImage(2)" onmouseup="stopTone();hideImage(2)">
+        <img id="image2" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio2" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/domestic-hungry-cat?v=1647906486280"></audio>
+      </button>
+      <!-- button3 -->
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3);showImage(3)" onmouseup="stopTone();hideImage(3)">
+        <img id="image3" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio3" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/little-cat-pain?v=1647906486396"></audio>
+      </button>
+      <!-- button4 -->
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4);showImage(4)" onmouseup="stopTone();hideImage(4)">
+        <img id="image4" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio4" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/angry-wild-cat?v=1647906486412"></audio>
+      </button>
+      <!-- button5 -->
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5);showImage(5)" onmouseup="stopTone();hideImage(5)">
+        <img id="image5" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio5" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/sweet-kitty?v=1647906486450"></audio>
+      </button>
+      <!-- button6 -->
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6);showImage(6)" onmouseup="stopTone();hideImage(6)">
+        <img id="image6" class="hidden" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/cat?v=1647810239678">
+        <audio id="audio6" src="https://cdn.glitch.global/e3330292-de52-42b0-a669-8fd47ec936f8/little-cat-attention?v=1647906486295"></audio>
+      </button>
+    </div>
+    
+  </body>
+</html>
+
