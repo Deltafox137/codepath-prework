@@ -4,9 +4,9 @@
 
 Submitted by: **Darren Lin**
 
-Time spent: **#** hours spent in total
+Time spent: **18** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/tricky-succinct-fridge)
 
 ## Required Functionality
 
@@ -85,7 +85,7 @@ with the button I have not discovered yet but if I had some more time maybe I co
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Darren lin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
