@@ -40,8 +40,8 @@ a counter to show how many strikes the player has
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-* [gif1](http://g.recordit.co/9evaNi9eVp.gif)
-* [gif2](http://g.recordit.co/QrSGJNYiDL.gif)
+![gif1](http://g.recordit.co/9evaNi9eVp.gif)
+![gif2](http://g.recordit.co/QrSGJNYiDL.gif)
 ![](gif3-link-here)
 ![](gif4-link-here)
 
