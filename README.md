@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app!
-* [x] a counter to show how many strikes the player has
+* - a counter to show how many strikes the player has
 
 ## Video Walkthrough (GIF)
 
